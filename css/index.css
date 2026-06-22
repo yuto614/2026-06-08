@@ -22,7 +22,7 @@ nav.floating {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
+    padding-left: 40ox;
     padding-bottom: 80px;
     color: #ffffff;
     font-weight: bold;
@@ -30,7 +30,7 @@ nav.floating {
 }
 
 .first-view-text h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 56px;
     line-height: 72px;
 }
@@ -136,10 +136,6 @@ img {
         position: relative;
     }
 
-    .header-logo {
-        width: 100px;
-    }
-
     .header-site-menu {
         position: absolute;
         top: 100%;
@@ -156,18 +152,8 @@ img {
         display: block;
     }
 
-    .toggle-menu-button {
-        display: block;
-        width: 44px;
-        height: 34px;
-        background-image: url('../images/common/icon-menu.png');
-        background-size: 50%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: transparent;
-        border: none;
-        border-radius: 0;
-        outline: none;
+    .header-logo {
+        width: 100px;
     }
 
     .main {
@@ -181,8 +167,21 @@ img {
     .copyright {
         margin-top: 50px;
     }
-}
 
+    .toggle-menu-button {
+        display: block;
+        width: 44px;
+        height: 34px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
+    }
+}
 .footer {
     color: #ffffff;
     background-color: #24211b;
